@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#wrap{width:1000px; height:650px;margin:0 auto;}
+
+#wrap #header {float:left;width:220px;height:650px;background: violet;}
+#wrap #header .top{float:left;width:100%;height:100px;background:tomato;}
+#wrap #header .bottom{float:left;width:100%;height:550px;background:teal;}
+
+#wrap #header .bottom .wrapper{width:180px;height:500px;}
+
+
+#wrap #header .bottom .wrapper #nav{width:180px;height:500px;margin:10px 0 0 10px;}
+
+
+#wrap #header .bottom .wrapper #nav .main-btn-box{display:inline-block;text-align:center;}
+
+#wrap #header .bottom .wrapper #nav .main-btn-box > li {width:100px;border-top:solid 1px #fff;width:100%;height:45px;text-align:center;line-height:45px;display:inline-block;background:#000;}
+#wrap #header .bottom .wrapper #nav .main-btn-box > li:hover {height:180px;}
+#wrap #header .bottom .wrapper #nav .main-btn-box > li > a{display: block;color:#fff;background: #000;}
+#wrap #header .bottom .wrapper #nav .main-btn-box > li > a:hover{color:#000;background: #fff;}
+
+
+#wrap #header .bottom .wrapper #nav .main-btn-box > li > .submenu{display:none;width:100%;}
+#wrap #header .bottom .wrapper #nav .main-btn-box > li > .submenu > li{line-height:45px;width:100%;background:#fff;border-top: solid 1px #000;}
+#wrap #header .bottom .wrapper #nav .main-btn-box > li > .submenu > li > a {display:block;}
+#wrap #header .bottom .wrapper #nav .main-btn-box > li:hover .submenu{display:block;}
+
+#wrap #main .wrapper #section1 .slide-container{position:relative;width:100%;height:350px;}
+#wrap #main .wrapper #section1 .slide-container .slide-view{z-index:1;position:relative;width:100%;height:350px;overflow:hidden;}
+#wrap #main .wrapper #section1 .slide-container .slide-view .slide-wrap{position:relative;left:0;width:3200px;height:350px;transition:all 0.8s;}
+#wrap #main .wrapper #section1 .slide-container .slide-view .slide-wrap .slide {float:left;width:800px;height:350px;}
+#wrap #main .wrapper #section1 .slide-container .slide-view .slide-wrap .slide0 {background:url(../img/bread-5916804_1280.jpg)no-repeat 50% 50%;background-size:cover;}
+#wrap #main .wrapper #section1 .slide-container .slide-view .slide-wrap .slide1 {background:url(../img/gourmet-5619887_1280.jpg)no-repeat 50% 50%;background-size:cover;}
+#wrap #main .wrapper #section1 .slide-container .slide-view .slide-wrap .slide2 {background:url(../img/person-5956897_1280.jpg)no-repeat 50% 50%;background-size:cover;}
+#wrap #main .wrapper #section1 .slide-container .slide-view .slide-wrap .slide3 {background:url(../img/road-5375897_1280.jpg)no-repeat 50% 50%;background-size:cover;}
+
+/* 다음 이전 슬라이드 버튼 */
+#wrap #main .wrapper #section1 .slide-container .next-btn-wrap {transform:rotate(45deg);z-index:2;position:absolute;top:50%;margin-top:-30px;right:50px;width:60px;height:60px;border-top:solid 1px #fff;border-right:solid 1px #fff;}
+#wrap #main .wrapper #section1 .slide-container .next-btn-wrap a {display:block;width:100%;height:100%;}
+
+#wrap #main .wrapper #section1 .slide-container .prev-btn-wrap {transform:rotate(45deg);z-index:2;position:absolute;top:50%;margin-top:-30px;left:50px;width:60px;height:60px;border-left:solid 1px #fff;border-bottom:solid 1px #fff;}
+#wrap #main .wrapper #section1 .slide-container .prev-btn-wrap a {display:block;width:100%;height:100%;}
+
+
+
+
+#wrap #main {float:left;width:780px;height:550px;}
+#wrap #main #section1{width:100%;height:350px;background:sandybrown;}
+#wrap #main #section2{width:100%;height:200px;background:royalblue;}
+#wrap #main #section2 .left{float:left;width:33.3%;height:200px;background:pink;}
+#wrap #main #section2 .center{float:left;width:33.3%;height:200px;background: rosybrown;}
+#wrap #main #section2 .right{float:left;width:33.3%;height:200px;background:saddlebrown}
+
+#wrap #footer {float:left;width:780px;height:100px;}
+#wrap #footer #section3{float:left;width:560px;height:100px;background:palegreen}
+#wrap #footer #section4{float:left;width:220px;height:100px;background:orchid;}
+#wrap #footer #section4 .top{width:100%;height:50px;background:orange;}
+#wrap #footer #section4 .bottom{width:100%;height:50px;background:olive;}

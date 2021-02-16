@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+#wrap{width:1200px;height:700px;text-align:center;margin:0 auto;}
+#wrap #header{z-index:3;position:relative;width:100%;height:100px;line-height:100px;}
+#wrap #header .left{float:left;width:200px;height:100px;background:cadetblue;}
+
+
+#wrap #header .right{float:left;width:1000px;height:100px;background:darkgreen;}
+#wrap #header .right #nav{height:50px;margin:25px 0;line-height:100%;text-align:right;}
+#wrap #header .right #nav > .main-btn-box{height:100%;display:inline-block;margin-right: 20px;}
+#wrap #header .right #nav > .main-btn-box > li{float:left;width:180px;height:100%;background:seagreen;}
+#wrap #header .right #nav > .main-btn-box > li > a{display:block;text-align:center;line-height:50px;font-size:15px;font-weight:600;background:#fff;color:#000;transition:all 0.3s;}
+#wrap #header .right #nav > .main-btn-box > li > a:hover{background:#000;color:#fff;}
+#wrap #header .right #nav > .main-btn-box > li:hover .sub{display:block;}
+#wrap #header .right #nav > .main-btn-box > li:focus .sub{display:block;}
+
+
+#wrap #header .right #nav > .main-btn-box > li .sub {width:100%;display:none;}
+#wrap #header .right #nav > .main-btn-box > li .sub > ul {width:100%;}
+#wrap #header .right #nav > .main-btn-box > li .sub > ul > li {width:100%;border-top: 1px solid #ccc;}
+#wrap #header .right #nav > .main-btn-box > li .sub > ul > li .sub-btn{width:100%;display: block;line-height:45px;text-align:center; background:#f0f0f0;color:#555;font-size:14px;transition:all 0.3s;}
+#wrap #header .right #nav > .main-btn-box > li .sub > ul > li .sub-btn:hover{background:#000;color:#fff;}
+
+
+#wrap #main{z-index:2;position:relative;width:100%;height:500px;background:chocolate;}
+#wrap #main #section1{width:100%;height:300px;background:crimson;line-height:300px;}
+#wrap #main #section2{width:100%;height:200px;background:darkblue;line-height:200px;}
+#wrap #main #section2 .left{float:left;width:400px;height:200px;background:darkblue;}
+#wrap #main #section2 .center{float:left;width:400px;height:200px;background:darkmagenta;}
+#wrap #main #section2 .right{float:left;width:400px;height:200px;background:darkslateblue;}
+#wrap #footer{z-index:1;position:relative;width:100%;height:100px;background:cornflowerblue;line-height:100px;}
+#wrap #footer .left{float:left;width:200px;height:100px;background:firebrick;}
+#wrap #footer .center{float:left;width:800px;height:100px;background:dodgerblue;}
+#wrap #footer .right{float:left;width:200px;height:100px;background:fuchsia;}
